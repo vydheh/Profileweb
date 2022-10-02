@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.counter{
+  background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 100%;;
+}
+.counter .content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.content .box{
+    width: 275px;
+    height: 100%;
+    border: 5px solid gold;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space space-evenly;
+    color: gold;
+    flex-direction: column;
+}
+
+.content .box .icon{
+    font-size: 40px;
+    color: gold;
+}
+.content .box .counter1{
+    font-size: 50px;
+    color: gold;
+    font-weight: 500px;
+    font-family: sans-serif;
+    animation-iteration-count: 15;
+}
+.content .box .text{
+    font-size: 25px;
+    color: gold;
+}
+
+
+
+

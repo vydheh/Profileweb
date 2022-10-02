@@ -1,0 +1,27 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+article{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.divimage{
+ width: 23.33%;
+ float: right;
+ border: 3px solid black;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.Divp{
+    width: 23.33%;
+    float: left;
+}
